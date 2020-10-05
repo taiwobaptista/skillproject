@@ -1,0 +1,1800 @@
+@font-face {
+    font-family: skillstation;
+    src: url(../font/Helvetica.ttf);
+} 
+h1,h2,h3,h4,p,a{
+    font-family: skillstation;
+}
+.noPadding {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* section-one styles starts here */
+.nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #1D3557;
+
+    position: fixed;
+    z-index: 1;
+}
+.nav-logo{
+    position: absolute;
+    left: 7%;
+    top: 12%;
+}
+.nav-bar{
+    position: absolute;
+    left: 30%;
+    display: none;
+    cursor: pointer;
+    
+}
+.nav-menu{
+    position: absolute;
+    left: 40%;
+    top: 35%;
+    height: 40px;
+    width: 60%;
+}   
+.main{
+    padding-top: 80px;
+} 
+
+#write{
+    width: 500px;
+    position: absolute;
+    top: 400px;
+    color:white;
+    left: 100px;
+}
+
+
+
+.nav-menu :hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #ED3237;
+    }
+.nav-menu a{
+    text-decoration: none;
+    padding: 20px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+
+#sign{
+    border: solid 1px #ED3237;
+    background-color: #ED3237;
+    color:#ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    height: 60px;
+}
+#log{
+    border: solid 1px #ED3237;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+#sign:hover{
+    color: #1D3557;
+   }
+   #log:hover{
+       color: #ED3237;
+        }
+        /* section-three styles starts here */
+        .sphere{
+            height: 550px;
+
+            }
+            .circle{
+                display: flex;
+            }
+            #box-1{
+                width: 300px;
+                height: 300px;
+                margin-top: 5px;
+                margin-left: 7%;
+            }
+            #box-1 img{
+                width: 100%;
+                height: 100%;
+            }
+            #box-2{
+                width: 300px;
+                height: 300px;
+                margin-top: 5px;
+                margin-left: 10%;
+            }
+            #box-2 img{
+                width: 100%;
+                height: 100%;
+            }
+            #box-3{
+                width: 300px;
+                height: 300px;
+                margin-left: 10%;
+                margin-top: 5px;
+            }
+            #box-3 img{
+                width: 100%;
+                height: 100%;
+            }
+            
+            .oval{
+                display: flex;
+                margin: 20px;
+                padding: 10px;
+            }
+            #box-par1{
+                padding: 10px;
+                margin-left: 10%;
+                width: 200px;
+            }
+            #box-par2{
+                padding: 10px;
+                margin-left: 15%;
+                width: 250px;
+            }
+            #box-par3{
+                padding: 10px;
+                margin-left: 19%;
+                width: 250px;
+            }
+            
+            /* section-three styles ends here */
+              /* section-four styles starts here */
+              .big-wrap{
+                background-color:#457B9D;
+
+                display: flex;
+                height: 700px;
+            }
+            .text-wrap{
+                width: 600px;
+                height: 400px;
+                margin-left: 10%;
+                margin-top: 100px;
+            }
+            .text-wrap #para-1{
+                margin-left: 5%;
+                color: #ffffff;
+                font-weight: 400;     
+                font-size: 18px;
+                justify-content: space-around;
+            }
+            .text-wrap #para-2{
+                margin-left: 5%;
+                margin-top: 10%;
+                color: #ffffff;
+                font-weight: 400;
+                font-size: 18px;
+                justify-content: right;
+            }
+            #join{
+                width: 551px;
+                height: 60px;
+                margin-top: 10%;
+                margin-left: 5%;
+                border-radius: 10px;
+                
+               
+            }
+
+            #don{
+                background: #DD2222;
+                border-radius: 10px;
+                width: 200px;
+                height: 40px;
+                border: none;
+            }
+            
+            #emp{
+                background: #457B9D;
+                border-radius: 10px;
+                width: 200px;
+                height: 40px;
+                border: none;
+                border: 2px solid #DD2222;
+                box-sizing: border-box;
+                margin-left: 146px;
+                
+            }
+
+
+            #join a{
+                color: #ffffff;
+                font-size: 18px;
+                font-weight: 500;
+                margin-left: 1%;
+            }
+            #join :hover{
+                color: #1D3557;
+                text-decoration: none;
+            }
+            .img-wrap2{
+                display: none;
+            }
+
+            .img-wrap{
+                margin-top: 80px;
+                
+            }
+            #wrap-1{
+                position: absolute;
+                height: 400px;
+                width: 450px;
+                margin-top: 20px;
+                margin-left: 10%;
+                background-image: url(../images/first\ pix\ 1.png);
+                background-color: #457b9d;
+                mix-blend-mode: luminosity;
+            }
+
+
+            #wrap-1 img{
+                width: 100%;
+            }
+            #wrap-2{
+                position: absolute;
+                height: 400px;
+                width: 450px;
+                margin-left: 6%;
+                background-image: url(../images/first\ pix\ 1.png);
+                margin-top: 60px;
+            }
+            #wrap-2 img{
+                width: 100%;
+            }
+                /* section-four styles ends here */
+                /* section-five styles starts here */
+
+                #comp{
+                    height: 500px;
+                    background-color: #f1faee;
+
+                }
+
+                .cover{
+                    display: flex;
+                    background-color: #f1faee;
+                }
+                #cover-img{
+                    width: 500px;
+                    background-image: url(../images/login\ opt\ 2\ 1.png);
+                    height: 350px;
+                    background-repeat: no-repeat;
+                    margin-left: 10%;
+                    margin-top: 8%;
+                }
+                #cover-img img{
+                    width: 100%;
+                }
+                #cover-text{
+                    height: 300px;
+                    width: 500px;
+                    margin-top: 8%;
+                    margin-left: 7%;
+                    
+                }
+                #cover-text h3{
+                    font-weight: 700;
+                    font-size: 24px;
+                }
+                #cover-text p{
+                    font-weight: 400;
+                    font-size: 18px;
+                    margin-top: 8%;
+                }
+                #impact{
+                    background-color: #ED3237;
+                    border: #ED3237 solid;
+                    border-radius: 10px;
+                    height: 40px;
+                    width: 150px;
+                    text-align: center;
+                    padding-top: 4px;
+                    margin-left: 200px;
+                }
+                #impact a{
+                    color: white;
+                    text-align: center;
+                    text-decoration: none;
+                }
+                #impact:hover{
+                     text-decoration: none;
+                     background-color: #1D3557;
+                     cursor: pointer;
+                     border: #1D3557 solid;
+                }
+                /* section-five styles ends here */
+
+                /* creating media screen for this section */
+
+                @media (max-width:650px){
+                    
+                #comp{
+                    height: 900px;
+                    background-color: #f1faee;
+                    
+
+                }
+
+                .cover{
+                    display: flex;
+                    background-color: #f1faee;
+                    height: 1400px;
+                }
+                #cover-img{
+                    width: 500px;
+                    background-image: url(../images/login\ opt\ 2\ 1.png);
+                    height: 350px;
+                    background-repeat: no-repeat;
+                    margin-left: 10%;
+                    margin-top: 8%;
+                }
+                #cover-img img{
+                    width: 100%;
+                }
+                #cover-text{
+                    height: 300px;
+                    width: 500px;
+                    /* margin-top: 8%; */
+                    margin-left: 7%;
+                    
+                }
+                #cover-text h3{
+                    font-weight: 700;
+                    font-size: 24px;
+                }
+                #cover-text p{
+                    font-weight: 400;
+                    font-size: 18px;
+                    margin-top: 8%;
+                }
+                #impact{
+                    background-color: #ED3237;
+                    border: #ED3237 solid;
+                    border-radius: 10px;
+                    height: 40px;
+                    width: 150px;
+                    text-align: center;
+                    padding-top: 4px;
+                    margin-left: 200px;
+                }
+                #impact a{
+                    color: white;
+                    text-align: center;
+                    text-decoration: none;
+                }
+                #impact:hover{
+                     text-decoration: none;
+                     background-color: #1D3557;
+                     cursor: pointer;
+                     border: #1D3557 solid;
+                }
+
+                }
+
+                /* creating media screen for this section */
+
+                /* section-five part2 begins here */
+
+                
+                .cover1{
+                    display: flex;
+                    background-color: #f1faee;
+                    height: 550px;
+                    
+                }
+                #cover-img22 {
+                    display: none;
+
+                }
+
+                #cover-img1 {
+                    width: 500px;
+                    background-image: url(../images/text\ 3\ 2.png);
+                    height: 350px;
+                    background-repeat: no-repeat;
+                    margin-left: 7%;
+                    margin-top: 8%;
+                   
+                }
+                #cover-img1 img{
+                    width: 100%;
+                }
+                #cover-text1{
+                    height: 300px;
+                    width: 500px;
+                    margin-top: 8%;
+                    margin-left: 10%;
+                   
+                }
+                #cover-text1 h3{
+                    font-weight: 700;
+                    font-size: 24px;
+                }
+                #cover-text1 p{
+                    font-weight: 400;
+                    font-size: 18px;
+                    margin-top: 8%;
+                }
+                #impact1{
+                    border-radius: 10px;
+                    height: 50px;
+                    width: 550px;
+                    padding-top: 0px;
+                    margin-top: 60px;
+                }
+
+                #su1{
+                    width: 200px;
+                    background: #ED3237;
+                    border-radius: 10px;
+                    height: 40px;
+                    border: none;
+
+
+                }
+
+                #su2{
+                    width: 200px;
+                    border-radius: 10px;
+                    height: 40px;
+                    margin-left: 88px;
+                    border: 3px solid #ED3237;
+                    box-sizing: border-box;
+                    border-radius: 10px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 500;
+                    color: black;
+
+                    
+                }
+                #su1 a{
+                    color: white;
+                }
+                #su2 a{
+                    color: black;
+                }
+
+                #impact1 a{
+                   
+                    text-align: center;
+                    text-decoration: none;
+                }
+                #su1:hover{
+                     text-decoration: none;
+                     cursor: pointer;
+                     background-color: #1D3557;
+                
+                }
+                #su2:hover{
+                    text-decoration: none;
+                    cursor: pointer;
+                    background-color: #1D3557;
+                    color: white;
+                    border: #1D3557;
+               
+               }
+                  #su2:hover{
+                    text-decoration: none;
+                    cursor: pointer;
+                    background-color: #1D3557;
+                    color: white;
+                    border: #1D3557;
+               
+               }
+
+               #su2 a:hover{
+                text-decoration: none;
+                color: white;
+                
+           
+           }
+
+
+
+
+                /* section-five part2 ends here */
+
+
+                /* section six styles starts here */
+                .sec-vid{
+                    width: 100%;
+                    height: 400px;
+                    background: #E5E5E5;
+                    text-align: center;
+                }
+                /* section six styles ends here */
+                /* section seven styles starts here */
+                
+                .skill{
+                    background-color: #f1faee;
+
+                }
+                .skill, h2, h3{
+                    font-weight: 400;
+                    font-size: 36px;
+                }
+                .skill h2{
+                    text-align: center;
+                }
+                .skill h3{
+                    margin-left: 10%;
+                    margin-top: 15px;
+                }
+                .all{
+                    display: flex;
+                }
+                .dig-skill-1{
+                    height: 300px;
+                    width: 200px;
+                    margin-top: 30px;
+                    margin-left: 10%;
+                }
+                #dig-img1{
+                    height: 150px;
+                    width: 200px;
+                    background-image: url(../images/UI-UX1\ 1.png);
+                    border-top-right-radius: 10px;
+                }
+                #dig-img1{
+                    width: 100%;
+                    
+                }
+                #dig-text1{
+                     width: 200px;
+                     height: 150px;
+                     background-color: #1D3557;
+                     border-bottom-left-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                     border: solid #1D3557 1px;
+                }
+                #dig-text1 h4{
+                 color: #ffffff;
+                 font-weight: 400;
+                 font-size: 18px;
+                 margin-left: 2%;
+                }
+                #dig-text1 p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+                .dig-skill-2{
+                    height: 300px;
+                    width: 200px;
+                    margin-top: 30px;
+                    margin-left: 10%;
+                }
+                #dig-img2{
+                    height: 150px;
+                    width: 200px;
+                    background-image: url(../images/software3\ 1.png);
+                    border-top-right-radius: 10px;
+                }
+                #dig-img2{
+                    width: 100%;
+                    
+                }
+                #dig-text2{
+                     width: 200px;
+                     height: 150px;
+                     background-color: #1D3557;
+                     border-bottom-left-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                     border: solid #1D3557 1px;
+                }
+                #dig-text2 h4{
+                 color: #ffffff;
+                 font-weight: 400;
+                 font-size: 18px;
+                 margin-left: 2%;
+                }
+                #dig-text2 p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+                .dig-skill-3{
+                    height: 300px;
+                    width: 200px;
+                    margin-top: 30px;
+                    margin-left: 10%;
+                }
+                #dig-img3{
+                    height: 150px;
+                    width: 200px;
+                    background-image: url(../images/bootstrap3\ 1.png);
+                    border-top-right-radius: 10px;
+                }
+                #dig-img3{
+                    width: 100%;
+                    
+                }
+                #dig-text3{
+                     width: 200px;
+                     height: 150px;
+                     background-color: #1D3557;
+                     border-bottom-left-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                     border: solid #1D3557 1px;
+                }
+                #dig-text3 h4{
+                 color: #ffffff;
+                 font-weight: 400;
+                 font-size: 18px;
+                 margin-left: 2%;
+                }
+                #dig-text3 p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+                .dig-skill-4{
+                    height: 400px;
+                    width: 200px;
+                    margin-top: 30px;
+                    margin-left: 10%;
+                }
+                #dig-img4{
+                    height: 150px;
+                    width: 200px;
+                    background-image: url(../images/product\ mag1\ 2.png);
+                    border-top-right-radius: 10px;
+                }
+                #dig-text4{
+                     width: 200px;
+                     height: 150px;
+                     background-color: #1D3557;
+                     border-bottom-left-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                     border: solid #1D3557 1px;
+                }
+                #dig-text4 h4{
+                 color: #ffffff;
+                 font-weight: 400;
+                 font-size: 18px;
+                 margin-left: 2%;
+                }
+                #dig-text4 p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+                #view{
+                    border: solid 1px #ED3237;
+                    border-radius: 10px;
+                    width: 100px;
+                    margin-top: 5px;
+                }
+                #view a{
+                    text-decoration: none;
+                    cursor: pointer;
+                    font-weight: 400;
+                    font-size: 14px;
+                    margin-left: 15%;
+                    
+                }
+                .sun{
+                    display: flex;
+                }
+                .voc-skill-1{
+                    height: 400px;
+                    width: 200px;
+                    margin-top: 30px;
+                    margin-left: 10%;
+                }
+                #voc-img1{
+                    height: 150px;
+                    width: 200px;
+                    background-image: url(../images/capentry\ 1.png);
+                    border-top-right-radius: 10px;
+                }
+                #voc-text1{
+                     width: 200px;
+                     height: 150px;
+                     background-color: #1D3557;
+                     border-bottom-left-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                     border: solid #1D3557 1px;
+                }
+                #voc-text1 h4{
+                 color: #ffffff;
+                 font-weight: 400;
+                 font-size: 18px;
+                 margin-left: 2%;
+                }
+                #voc-text1 p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+                .voc-skill-2{
+                    height: 400px;
+                    width: 200px;
+                    margin-top: 30px;
+                    margin-left: 10%;
+                }
+                #voc-img2{
+                    height: 150px;
+                    width: 200px;
+                    background-image: url(../images/interior\ decor\ 1.png);
+                    border-top-right-radius: 10px;
+                }
+                #voc-text2{
+                     width: 200px;
+                     height: 150px;
+                     background-color: #1D3557;
+                     border-bottom-left-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                     border: solid #1D3557 1px;
+                }
+                #voc-text2 h4{
+                 color: #ffffff;
+                 font-weight: 400;
+                 font-size: 18px;
+                 margin-left: 2%;
+                }
+                #voc-text2 p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+                .voc-skill-3{
+                    height: 400px;
+                    width: 200px;
+                    margin-top: 30px;
+                    margin-left: 10%;
+                }
+                #voc-img3{
+                    height: 150px;
+                    width: 200px;
+                    background-image: url(../images/welder\ 1.png);
+                    border-top-right-radius: 10px;
+                }
+               
+                #voc-text3{
+                     width: 200px;
+                     height: 150px;
+                     background-color: #1D3557;
+                     border-bottom-left-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                     border: solid #1D3557 1px;
+                }
+                #voc-text3 h4{
+                 color: #ffffff;
+                 font-weight: 400;
+                 font-size: 18px;
+                 margin-left: 2%;
+                }
+                #voc-text3 p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+                .voc-skill-4{
+                    height: 400px;
+                    width: 200px;
+                    margin-top: 30px;
+                    margin-left: 10%;
+                }
+                #voc-img4{
+                    height: 150px;
+                    width: 200px;
+                    background-image: url(../images/builder\ 1.png);
+                    border-top-right-radius: 10px;
+                }
+                #voc-text4{
+                     width: 200px;
+                     height: 150px;
+                     background-color: #1D3557;
+                     border-bottom-left-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                     border: solid #1D3557 1px;
+                }
+                #voc-text4 h4{
+                 color: #ffffff;
+                 font-weight: 400;
+                 font-size: 18px;
+                 margin-left: 2%;
+                }
+                #voc-text4 p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+                /* section seven styles ends here */
+                /* section eight styles starts here */
+                .sketch{
+                    display: flex;
+                    background-color: #f1faee;
+                }
+                /* #sketch-img{
+                    width: 450px;
+                    background-image: url(../images/5th\ Illustration.png);
+                    height: 300px;
+                    background-repeat: no-repeat;
+                    margin-left: 10%;
+                    margin-top: 8%;
+                }
+                #sketch-img img{
+                    width: 100%;
+                } */
+                #sketch-text{
+                    height: 300px;
+                    width: 500px;
+                    margin-top: 8%;
+                    margin-left: 7%;
+                }
+                #sketch-text h3{
+                    font-weight: 700;
+                    font-size: 24px;
+                }
+                #sketch-text p{
+                    font-weight: 400;
+                    font-size: 18px;
+                    margin-top: 8%;
+                }
+                .link{
+                    display: flex;
+                }
+                  
+                #signup-1{
+                    border: solid #ED3237;
+                    background-color: #ED3237;
+                    height: 40px;
+                    border-radius: 10px;
+                    width: 200px;
+                }
+                #signup-1 a{
+                    text-decoration: none;
+                    color: #ffffff;
+                    margin-left: 10px;
+                }
+                #signup-2{
+                    border: solid #ED3237 1px;
+                    width: 200px;
+                    margin-left: 10%;
+                    height: 40px;
+                    border-radius: 10px;
+                }
+                #signup-2 a{
+                    text-decoration: none;
+                    color: black;
+                    margin-left: 10px;
+                }
+
+                 /* section eight styles ends here
+    /* section one media starts here */
+    @media(max-width:650px){
+    .nav{
+        height: 80px;
+        width: 100%;
+    }   
+    .nav-logo{
+        position: absolute;
+        left: 5%;
+        top: 2%;
+    }
+     .nav-bar{
+        position: absolute;
+        left: 80%;
+        display: block;
+        color: white;
+        top: 5%;
+    } 
+    .nav-menu{
+        position: absolute;
+        left: 40%;
+        top: 14%;
+        height: 40px;
+        width: 60%;
+        z-index: +1;
+        display: none;
+    }
+    .nav-menu a{
+        text-decoration: none;
+        padding: 20px;
+        display: block;
+        color: white;
+        background-color: #ED3237;
+        border-radius: 10px;
+        margin-top: 1%;
+    }
+    #hom{
+        margin-top: 10%;
+    }
+    .nav-menu :hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #1D3557;
+    }
+    #sign{
+        border: solid 1px #ED3237;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #ED3237;
+    }
+    #sign:hover{
+     color: #1D3557;
+    }
+    #log:hover{
+        color: #1D3557;
+         }
+    #log{
+        border: solid 1px #ED3237;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        margin-left: 0px;
+
+    }
+    .empty{
+        display: block;
+    }
+        /* section one media ends here */
+       /* section three media starts here */
+        .sphere{
+            height: 720px;
+            
+            }
+            .circle{
+                display: flex;
+            }
+            #box-1{
+
+                width: 150px;
+                height: 150px;
+                margin-top: 5px;
+                border-radius: 50%;
+                margin-left: 5%;
+                
+            }
+            #box-2{
+                width: 150px;
+                height: 150px;
+                margin-top: 5px;
+                border-radius: 50%;
+                margin-left: 7%;
+            }
+            #box-3{
+                width: 150px;
+                height: 150px;
+                margin-top: 5px;
+                border-radius: 50%;
+                margin-left: 7%;
+                }
+            .oval{
+                display: flex;
+               
+            }
+            #box-par1{
+                width: 30%;
+                margin-left: 10px;
+              
+            }
+            #box-par2{
+                width: 30%;
+                margin-left: 10px;
+              
+            }
+            #box-par3{
+                width: 30%;
+                margin-left: 10px;
+                
+                
+            }
+       /* section three media ends here */
+        /* section four media starts here */
+       .big-wrap{
+        background-color:#1D3557;
+        display: block;
+        height: 880px;
+        
+    }
+     .text-wrap{
+        margin-left: 0%;
+        margin-top: 20%;
+    }
+    #para-1{
+        margin-left: 2%;
+        margin-top: 10%;
+        color: #ffffff;
+    }
+    #para-2{
+        margin-left: 2%;
+        margin-top: 10%;
+        color: #ffffff;
+    }
+
+    #join{
+        
+        width: 360px;
+        margin-left: 10px;
+    }
+
+
+     /* section four media ends here */
+     /* section five media starts here */
+      
+   
+     /* section five media ends here */
+    /* section seven media starts here */
+    .skill{
+        background-color: #f1faee;
+        
+
+    }
+    .skill, h2, h3{
+        font-weight: 400;
+        font-size: 36px;
+        border: solid greenyellow;
+    }
+    .skill h3{
+        margin-left: 10%;
+        margin-top: 15px;
+    }
+    .all{
+        display:block;
+        width: 100%;
+    }
+    .dig-skill-1{
+        height: 400px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 1%;
+    }
+    .dig-skill-2{
+        height: 400px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 1%;
+    }
+    
+    .dig-skill-3{
+        height: 400px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 1%;
+
+    }
+    .dig-skill-4{
+        height: 400px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 1%;
+    }
+    .sun{
+        display:block;
+        width: 100%;
+    }
+    .voc-skill-1{
+        height: 400px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 1%;
+    }
+    .voc-skill-2{
+        height: 400px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 1%;
+    }
+    
+    .voc-skill-3{
+        height: 400px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 1%;
+
+    }
+    .voc-skill-4{
+        height: 400px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 1%;
+    }
+
+
+    /* section seven media ends here */
+
+    .sketch{
+        display: block;
+        background-color: #f1faee;
+    }
+    #sketch-img{
+        width: 450px;
+        background-image: url(../images/5th\ Illustration.png);
+        height: 300px;
+        background-repeat: no-repeat;
+        margin-left: 1%;
+        margin-top: 0%;
+    }
+    #sketch-img img{
+        width: 100%;
+    }
+    #sketch-text{
+        height: 300px;
+        width: 450px;
+        margin-top: 8%;
+        margin-left: 1%;
+    }
+    #sketch-text h3{
+        font-weight: 700;
+        font-size: 24px;
+    }
+    #sketch-text p{
+        font-weight: 400;
+        font-size: 18px;
+        margin-top: 8%;
+    }
+
+}
+
+/* adding footer */
+
+#footer{
+    height: 390px;
+    background-color: #1D3557;
+
+
+}
+
+#foot1{
+    margin-left: 100px;
+    margin-top: 50px;
+    float: left;
+  
+
+
+}
+#folo{
+    margin-top: 100px;
+    color: white;
+    
+
+}
+
+#so{
+    display: flex;
+    margin-top: 5px;
+   
+}
+#last{
+    background-color: #1D3557;
+    
+
+}
+
+#sk{
+    /* margin-top: 10px; */
+    margin-left: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1D3557;
+}
+
+#cont{
+    margin-left: 530px;
+    display: flex;
+
+}
+
+#cont1 {
+    margin-top: 100px;
+
+}
+
+
+#cont1 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+
+}
+
+#cont2 {
+    margin-left: 150px;
+    margin-top: 100px;
+
+
+}
+
+
+#cont2 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+}
+#cont3 {
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+#cont3 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;   
+}
+@media(max-width:500px){
+    .big-wrap{
+        height: 1300px;
+        display: block;
+        margin: auto;
+        margin-top: 0px;
+    }
+    .img-wrap2{
+        display: block;
+        width: 70%;
+        margin-left: 5px;
+    }
+    .text-wrap{
+        width: 80%;
+        height: 700px;
+        margin: auto;
+        margin-left: 20px;
+        margin-top: 0px;
+        padding-top: 500px;
+        
+    }
+    #don{
+        width: 120px;
+    }
+
+    #emp{
+        width: 120px;
+        margin-left: 35px;
+
+    }
+
+    .text-wrap #para-1{
+        margin-left: 6px;
+
+    }
+
+    .text-wrap #para-2{
+        margin-left: 6px;
+
+    }
+
+    .img-wrap{
+        width: 400px;
+        height: 470px;
+        margin-top: 10px;
+        margin-left: 120px;
+        display: none;
+    }
+    #wrap-1{
+        width: 300px;
+        height: 400px;
+        margin-left: 30px;
+    }
+
+    #wrap-1 img{
+        width: 100%;
+        height: 100%;
+    }
+ 
+    #wrap-2{
+        width: 300px;
+        height: 400px;
+        margin-left: 0px;
+    }
+
+    #wrap-2 img{
+        width: 100%;
+        height: 100%;
+       
+    }
+    #join{
+        width: 100%;
+    
+    }
+    
+}
+
+
+
+/* end of media media screen for join us section */
+
+/* mobile screen for footer */
+
+@media (max-width:650px){
+
+    #footer{
+        display: block;
+        height: 500px;
+    }
+     
+    #foot1{
+        display: block;
+        margin-left: 7px;
+        
+    }
+
+    #folo{
+        margin-top: 15px;
+        margin-left: 5px;
+        width: 130px;
+        font-size: 10px;
+        font-weight: 0px;
+        float: left;
+        
+        
+
+    }
+
+    #so{
+        margin-left: 0px;
+        margin-top: 17px;
+        
+        
+    }
+
+    #sk{
+        display: block;
+        width: 70%;
+        margin: auto;
+        margin-top: 0px;
+    }
+
+    #cont{
+        display: block;
+        margin-left: 0px;
+
+    }
+    #cont1{
+        margin-left: 20px;  
+       
+    }
+
+    #cont2{
+
+        margin-left: 20px;
+    
+    }
+
+    #cont3{
+    
+        margin-left: 20px;
+       
+    }
+    #sk{
+        display: block;
+         
+    }
+    
+}
+
+
+/* adding css for section new added */
+
+#new{
+    height: 800px;
+    background: #A8DADC;
+    width: 100%;
+}
+#new-cont{ 
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+#new-pics{
+    width: 316px;
+    height: 510px;
+    margin-left: 100px;
+    
+}
+#total{
+    display: flex;
+}
+
+#sup{
+    
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    position: absolute;
+    left: 12%;
+    
+}
+ #sup img{
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+     
+ }
+
+#sup-con{
+    background: #457B9D;
+    border-radius: 7px;  
+    width: 23%;
+    height: 400px;
+    position: absolute;
+    top: 3280px;
+    color: white;
+    
+
+}
+
+#sup-con h3 {
+    text-align: center;
+    padding-top: 110px;
+}
+
+#sup-con p{
+    width: 250px;
+    padding-top: 10px;
+    margin: auto;
+    text-align: justify;
+}
+
+#sup-con button{
+    width: 150px;
+    height: 40px;
+    background: #ED3237;
+    border-radius: 7px;
+    margin-left:24%;
+    margin-top: 30px;
+    border: none;
+    
+}
+
+#sup-con a{
+    text-decoration: none;
+    color: white;
+}
+
+
+   /* css sec new pat2 */
+
+  
+#new-pics2{
+    width: 316px;
+    height: 510px;
+    margin-left: 100px;
+
+    
+}
+
+#sup2{
+    
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    position: relative;
+    left: 20%;
+}
+ #sup2 img{
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+     
+ }
+
+#sup-con2{
+    background: #457B9D;
+    border-radius: 7px;  
+    width: 23%;
+    height: 400px;
+    position: absolute;
+    top: 3280px;
+    color: white;
+    
+
+}
+
+#sup-con2 h3 {
+    text-align: center;
+    padding-top: 110px;
+}
+
+#sup-con2 p{
+    width: 250px;
+    padding-top: 10px;
+    margin: auto;
+    text-align: justify;
+}
+
+#sup-con2 button{
+    width: 150px;
+    height: 40px;
+    border: 3px solid #ED3237;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-left:24%;
+    margin-top: 53px;
+    background: #457B9D;
+    
+}
+
+#sup-con2 a{
+    text-decoration: none;
+    color: white;
+}
+
+    /* css sec new pat2 ends*/
+
+     /* css sec new pat3 */
+  
+     #new-pics3{
+        width: 316px;
+        height: 510px;
+        margin-left: 100px;
+
+        
+    }
+    
+    #sup3{
+        
+        width: 190px;
+        height: 190px;
+        border-radius: 50%;
+        position: relative;
+        left: 20%;
+    }
+     #sup3 img{
+         width: 100%;
+         height: 100%;
+         border-radius: 50%;
+         
+     }
+    
+    #sup-con3{
+        background: #457B9D;
+        border-radius: 7px;  
+        width: 23%;
+        height: 400px;
+        position: absolute;
+        top: 3280px;
+        color: white;
+        
+    
+    }
+    
+    #sup-con3 h3 {
+        text-align: center;
+        padding-top: 110px;
+    }
+    
+    #sup-con3 p{
+        width: 250px;
+        padding-top: 10px;
+        margin: auto;
+        text-align: justify;
+    }
+   
+    #so3{
+        display: flex;
+        width: 170px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+
+      /* css sec new pat3 ends*/
+
+
+
+/*  css for section new added ends here */
+
+
+/* media screen for section 4*/
+@media(max-width: 500px){
+
+    #comp{
+        height: 850px;
+        background-color: #f1faee;
+    }
+
+    .cover{
+        display: block;
+    }
+
+    #cover-img{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 0px;
+    }
+
+    #cover-text{
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        height: 350px;
+        text-align: justify;
+    }
+
+    #impact{
+        margin:auto;
+    }
+
+    .cover1{
+        display: block;
+        height: 800px;
+    }
+
+    #cover-img1 {
+        display: none;
+
+    }
+
+    #cover-img22 {
+        display: block;
+        width: 100%;
+        margin-top: 0px;
+    }
+    #cover-img22 img{
+        width: 100%;
+    }
+
+    #cover-text1{
+        margin-top: 0px;
+        width: 80%;
+        height: 500px;
+    }
+    #impact1{
+        width: 100%;
+        height: 70px;
+
+    }
+
+    #su1{
+        width:40% ;
+        height: 50px;
+    }
+
+    #su2{
+        width:40%;
+        margin-left: 50px;
+        color: white;
+        height: 50px;
+    }
+
+/* media screen for section 4 ends here */
+    
+/* media screen for section 5 */
+
+#new{
+
+    display: block;
+    height: 2000px;
+}
+
+#new-cont{
+    width: 80%;
+    text-align: justify;
+}
+
+#new-cont h3{
+    text-align: center;
+}
+
+#new-cont p{
+    margin-top: 20px;
+}
+#total{
+    display: block;
+}
+#new1{
+    margin-top: 40px;
+}
+
+#sup{
+    left: 25%;
+}
+
+#sup-con{
+    width: 80%;
+    margin-top: 300%;
+    text-align: justify;
+    left: 35px;
+}
+
+#sup2{
+    left: -3%;
+    
+}
+
+#sup-con2{
+    width: 80%;
+    margin-top: 450%;
+    text-align: justify;
+    left: 35px;
+}
+#sup3{
+    left: -3%;
+    margin-top: 30px;
+}
+
+#sup-con3{
+    width: 80%;
+    margin-top: 597%;
+    text-align: justify;
+    left: 35px;
+}
+
+/* media screen for section 5 ends here */
+
+/* media for last footer pat */
+
+#footer{
+    height: 940px;
+    border: solid#1D3557; 
+    
+}
+
+#cont{
+    display: block;
+    height: 950px;
+}
+#cont1{
+    display: block;
+    padding-top: 120px;
+    
+}
+#cont2{
+    display: block;
+    margin-top: 50px;
+}
+#cont3{
+    display: block;
+    margin-top: 50px;
+}
+
+/* media for last footer pat */
+
+/* video media */
+
+.sec-vid iframe{
+    height: 300px;
+    width: 100%;
+}
+
+.sec-vid{
+    width: 100%;
+    height: 300px;
+}
+
+/* video media ends*/
+/* nav-menu */
+.nav-menu{
+    width: 50%;
+    margin-left: 0%;
+
+
+}
+#write{
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    color:white;
+    left: 50px;
+    border: solid red;
+    font-size: xx-small;
+    font-size:5px;
+    font-weight: 20px;
+}
+}
+

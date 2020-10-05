@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: skillstation;
+}
+
+@font-face{
+    font-family: skillstation;
+    src: url("../font/Helvetica.ttf");
+    }
+    
+#main{
+    background-image: url('../images/login-pic.png');
+    background-size: cover;
+    width: 100%;
+    height: 850px;
+    
+}
+
+
+#form1{
+    width: 45%;
+    height: 800px;
+    background-color: #F3ECEC;
+    position: absolute;
+    right: 15px;
+    margin-top: 15px;
+    font-family: skillstation;
+}
+
+#content{
+ width: 85%;
+ height: 800px;
+ margin: auto;
+ margin-top: 15px;
+}
+
+#logo img{
+    height: 50px;
+    width: 25%;
+
+}
+
+#account p{
+    display: inline-block;
+    font-family: myfont;
+}
+
+#account a{
+    display: inline-block;
+    text-decoration: none;
+    color: royalblue;
+    font-family: myfont;
+}
+
+#formarea{
+ margin-top: 30px;
+}
+
+#formarea label{
+  display: block;  
+  margin-bottom: 5px;
+}
+
+#formarea input{
+    display: block;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 100%;
+    text-decoration: none;
+    outline: none;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: #F3ECEC;
+}
+
+::placeholder{
+    padding-left: 15px;
+}
+
+
+#formarea input:hover{
+   border-color: rgb(12, 77, 197);
+}
+
+ #formarea .name[type="text"], textarea {
+    background-color : #F3ECEC; 
+  
+  }
+
+
+  #formarea .email[type="text"], textarea {
+    background-color : #F3ECEC; 
+  
+  }
+
+
+  #formarea .pass[type="password"], textarea {
+    background-color : #F3ECEC;  
+  }
+
+  
+  #formarea .eye{
+    position: absolute; 
+    right: 48px; 
+    bottom: 405px;
+     width: 8%;
+     height: 33px;
+     border: none;
+     outline: none;
+     background-color: #F3ECEC;
+  }
+
+  .eye img{
+      width: 20px;
+      height: 20px;
+      border: none;
+  }
+
+
+
+#check{
+    font-size: 14px;
+}
+
+#submit{
+    margin-top: 22px;
+    width: 100%;
+    height: 45px;
+    padding-top: 8px;
+    background-color: rgb(219, 33, 33);
+    text-align: center;
+    border: solid  rgb(219, 33, 33);
+    border-radius: 8px;
+    
+}
+
+#submit a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  
+}
+
+#submit:hover{
+    border-color: royalblue;
+}
+
+
+#check p{
+ margin-left: 19px;
+}
+
+#terms {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 80px;
+}
+
+#terms a{
+    text-decoration: none;
+    color: royalblue;
+}
+
+#option{
+    margin-top: 30px;
+}
+
+#option h3{
+    background-color: #F3ECEC;
+    position: absolute;
+    margin-left: 240px;
+    width: 7%;
+    text-align: center;
+    margin-top: -15px;
+}
+
+
+#signup{
+    margin-top: 30px;
+    text-align: center;
+}
+#links{
+margin-top: 15px;
+text-align: center;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+#pic2{
+    margin-left: 30px;
+}
+
+#pic3{
+    margin-left: 40px;
+}
+
+@media screen and (max-width:500px){
+    body{
+        width: 100%;
+        background-color: goldenrod;
+    }
+
+
+    #content{
+        width: 85%;
+        height: 800px;
+    }
+
+    #form1{
+        width: 90%;
+    left: 50px;
+    }
+
+
+
+}

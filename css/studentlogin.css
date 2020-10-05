@@ -1,0 +1,228 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: silver;
+}
+
+
+#contain{
+    width: 28%;
+    height: 570px;
+    background-color:#F3ECEC;
+    margin-left: 50%;
+    margin-top: 40px;
+    
+
+} 
+#bg{
+    background-image: url("../loginimages/pexels-christina-morillo-1181355\ 2.svg");
+    background-size: cover; 
+    height: 650PX;
+    float: left;
+    width: 99.5%;
+    margin-top: 0px;
+    padding-top: 0PX;
+    
+    
+}
+#logo{
+    width: 150px;
+    height: 55px;
+    
+    margin: auto;
+    
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 10px;
+    
+    
+
+}
+#login{
+    padding-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styling form */
+
+
+form{
+    width: 73%;
+    margin: auto;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+    
+}
+form input{ 
+    width: 91%;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+button{
+    width: 91.2%;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color:#ED3237;
+    color: white;
+    border: none;
+
+}
+
+#up{
+    display: none;
+}
+
+span a{
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+
+/* adding last part and media responsive */
+
+
+#or{
+    
+    text-align: center;
+    top: 40px;
+    position: relative;
+    background-color:#F3ECEC;
+    z-index: 1;
+    width: 40px;
+    left: 46%; 
+    
+  
+    
+    
+}
+hr{
+    position: relative;
+    width: 69.2%;
+    left: 15%;
+    top: 31px;
+}
+
+#sign{
+    text-align: center;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}  
+#social{
+    width: 130px;
+    padding-top: 20px;
+    display: flex;
+    margin: auto;
+
+}
+#facebook{
+    margin-left: 65px;
+}
+
+
+@media (max-width:1160px){
+    form{
+        width: 80%;
+    }
+    #contain{
+        width: 30%;
+    }    
+    
+}
+
+
+@media (max-width:1060px){
+    form{
+        width: 80%;
+    }
+    #contain{
+        width: 35%;
+    }    
+    
+}
+
+@media (max-width:855px){
+    form{
+        width: 90%;
+      
+    }
+     #contain{
+        width: 40%;
+    }    
+     
+}
+
+@media (max-width: 665px){
+    form{
+        width: 85%;
+      
+     }
+     #contain{
+        width: 50%;
+        margin-left: 40%;
+    }    
+    
+      
+}
+
+@media (max-width: 580px){
+    form{
+        width: 85%;
+      
+     }
+     #contain{
+        width: 65%;
+        margin-left: 20%;
+    }    
+    
+
+@media (min-width: 100px){
+    form{
+        width: 85%;
+      
+     }
+     #contain{
+        width: 80%;
+        margin-left: 10%;
+    }   
+    #down{
+        display: none;
+    } 
+    #up {
+        display: block;
+        text-align: center;
+        
+    }
+
+    #up a{
+
+        text-decoration: none;
+    }
+   
+   
+    button{
+        width: 90.7%;
+    }    
+}
+      
+}
+
+

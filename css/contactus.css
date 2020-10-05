@@ -1,0 +1,403 @@
+@font-face {
+    font-family: skillstation;
+    src: url(../font/Helvetica.ttf);
+} 
+h1,h2,h3,h4,h5,p,a{
+    font-family: skillstation;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* section-one styles starts here */
+.nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #1D3557;
+    position: fixed;
+}
+.nav-logo{
+    position: absolute;
+    left: 7%;
+    top: 1%;
+}
+.nav-bar{
+    position: absolute;
+    left: 30%;
+    display: none;
+    cursor: pointer;
+}
+.nav-menu{
+    position: absolute;
+    left: 40%;
+    top: 19%;
+    height: 40px;
+    width: 60%;
+    padding: 10px;
+}
+.nav-menu :hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #ED3237;
+    }
+.nav-menu a{
+    text-decoration: none;
+    padding: 20px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+    
+}
+#abt{
+    color: #ED3237;
+}
+#sign{
+    border: solid 1px #ED3237;
+    background-color: #ED3237;
+    color:#ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    height: 60px;
+}
+#log{
+    border: solid 1px #ED3237;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+#sign:hover{
+    color: #1D3557;
+   }
+   #log:hover{
+       color: #ED3237;
+        }
+        /* section one styles ends here */
+        /* section two styles starts here */
+        .bg-img{
+            background-image: url(../images/support\ 2\ 2.png);
+            background-size: cover;
+            height: 600px;
+        }
+        #bg-text{
+            padding: 10%;
+        }
+        #bg-text h3{
+            font-weight: 700;
+            color: #ffffff;
+            font-size: 52px;
+            text-align: center;
+            margin-top: 25%;
+        }
+/* section two styles ends here */
+/* section three starts here */
+ .all{
+     display: flex;
+ }
+ #left{
+     margin-left: 5%;
+     margin-top: 50px;
+     width: 550px;
+ }
+ #left input{
+  display: block;
+  margin-top: 20px;
+  width: 350px;
+  height: 30px;
+  border-radius: 5px;
+
+ }
+ #right{
+     border: solid 1px;
+     border-radius: 5px;
+     margin-left: 10%;
+     width: 350px;
+     margin-top: 50px;
+ }
+ #right p{
+margin-top: 15px;
+ }
+ #right h5{
+     margin-top: 10px;
+ }
+ .main{
+     display: flex;
+     height: 100px;
+     background-color: #1D3557;
+     margin-top: 5%;
+ }
+ .main #text{
+     margin-top: 2%;
+     margin-left: 5%;
+ }
+ #form{
+     margin-left: 25%;
+     margin-top: 2%;
+ }
+ /* section five ends */
+ .social{
+     display: flex;
+ }
+ #fb{
+     margin-left:40%;
+     background-color: blue;
+     color: white;
+ }
+ #tw{
+     margin-left: 5%;
+     background-color: blue;
+     color: white;
+ }
+ #in{
+    margin-left: 5%;
+    background-color: blue;
+    color: white;
+}
+#mail{
+    margin-left: 5%;
+}
+
+ /* section six */
+#footer{
+    height: 390px;
+    background-color: #1D3557;
+    margin-top: 15px;
+}
+
+#foot1{
+    margin-left: 100px;
+    margin-top: 50px;
+    float: left;
+
+}
+#folo{
+    margin-top: 100px;
+    color: white;
+}
+
+#so{
+    display: flex;
+    margin-top: 5px;
+}
+#last{
+    background-color: #1D3557;
+}
+
+#sk{
+    margin-left: 100px;
+    color: white;
+    background-color: #1D3557;
+}
+
+#cont{
+    margin-left: 530px;
+    display: flex;
+
+}
+
+#cont1 {
+    margin-top: 100px;
+
+}
+
+
+#cont1 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+
+}
+
+#cont2 {
+    margin-left: 150px;
+    margin-top: 100px;
+
+
+}
+#cont2 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+
+
+}
+
+#cont3 {
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+#cont3 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+    
+}
+/* section six ends */
+
+           @media(max-width:650px){
+           /* section one media starts here */
+            .nav{
+                height: 80px;
+                position: fixed;
+            }   
+            .nav-logo{
+                position: absolute;
+                left: 5%;
+                top: 2%;
+            }
+            .nav-bar{
+                position: absolute;
+                left: 80%;
+                display: block;
+                color: white;
+                top: 10%;
+                cursor: pointer;
+            }
+            .nav-menu{
+                position: absolute;
+                left: 40%;
+                top: 14%;
+                height: 40px;
+                width: 60%;
+                z-index: +1;
+                display: none;
+            }
+             #hom{
+                margin-top: 15%;
+            }
+            .nav-menu a{
+                text-decoration: none;
+                padding: 20px;
+                display: block;
+                color: white;
+                background-color: #ED3237;
+                border-radius: 10px;
+                margin-top: 1%;
+            }
+            .nav-menu :hover{
+            cursor: pointer;
+            text-decoration: none;
+            color: #1D3557;
+            }
+            #abt{
+                color: #ffffff;
+            }
+            #sign{
+                border: solid 1px #ED3237;
+                color: white;
+                padding: 5px;
+                border-radius: 10px;
+                background-color: #ED3237;
+            }
+            #sign:hover{
+             color: #1D3557;
+            }
+            #log:hover{
+                color: #1D3557;
+                 }
+            #log{
+                border: solid 1px #ED3237;
+                color: white;
+                padding: 5px;
+                border-radius: 10px;
+                margin-left: 0px;
+        
+            }
+            .empty{
+                display: block;
+            }
+            /* section two media styles starts here */
+            .bg-img{
+                background-image: url(../images/support\ 2\ 2.png);
+                background-size: cover;
+                height: 550px;
+            }
+            #bg-text{
+                padding: 10%;
+            }
+            #bg-text h3{
+                font-weight: 700;
+                color: #ffffff;
+                font-size: 52px;
+                text-align: center;
+                margin-top: 25%;
+            }
+            /* section two media styles ends here */
+            /* section three media starts here */
+           .all{
+           display: block;
+            }
+            #left{
+                margin-left: 5%;
+                margin-top: 50px;
+                width: 450px;
+            }
+/* section three media ends here */
+/* section four media  */
+.main{
+    display: block;
+    height: 120px;
+    background-color: #1D3557;
+    margin-top: 5%;
+}
+.main #text{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+#form{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+/* section four media ends here */
+ /* section five media starts here */
+ #footer{
+    display: block;
+    height: 500px;
+}
+#foot1{
+    display: flex;
+    margin-left: 7px;   
+}
+#folo{
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 130px;
+    font-size: 10px;
+    font-weight: 0px;
+}
+#so{
+    margin-left: 0px;
+    margin-top: 17px;   
+}
+#sk{
+    display: block;
+    margin-top: 0px;
+}
+#cont{
+    display: block;
+    margin-left: 0px;
+}
+#cont1{
+    float: left;
+}
+#cont2{
+    float: left;
+    margin-left: 20px;
+}
+#cont3{
+    float: left;
+    margin-left: 20px;
+}
+#sk{
+    display: block;
+}
+
+/* section five media ends here */
+        }

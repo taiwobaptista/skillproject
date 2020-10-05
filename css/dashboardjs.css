@@ -1,0 +1,629 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+@font-face{
+    font-family: skillstation;
+    src: url("../font/Helvetica.ttf");
+    }
+
+    
+#nav{
+    width: 100%;
+    height: 80px;
+    background-color: #1D3557;
+    position: fixed;
+    z-index: 1;
+    font-family: skillstation;
+}
+
+#menubar {
+display: inline-block;
+margin-left: 70px;
+margin-top: 15px;
+}
+
+#logo{
+    display: inline-block;
+    margin-left: 60px;
+}
+
+
+#search{
+    display: inline-block;
+    position: absolute;     
+}
+
+#search input{
+    position: relative;
+    height: 30px;
+    width: 130%;
+    outline: none;
+      left: 287px;
+     margin-top: 20px;
+
+}
+
+#search ::placeholder{
+    padding-left: 100px;
+}
+
+#search button{
+ position: absolute;
+    left: 249px;
+    height: 28.3px;
+    top: 21.2px;
+    width: 20%;
+    background-color: white;
+    border: none;
+    outline: none;
+    
+}
+
+#notification{
+    display: inline-block;
+    position: absolute;
+    right: 220px;
+    margin-top: 25px;
+}
+
+#name{
+    display: inline-block;
+    position: absolute;
+    right: 120px;
+    color: white;
+    font-size: 18px;
+    margin-top: 28px;
+}
+
+#myphoto img{
+    display: inline-block;
+    height: 55px;
+    width: 4%;
+    position: absolute;
+    right: 40px;
+    top: 12px;
+    border-radius: 50%;
+}
+
+    /* End of section 1 */
+
+    .top{
+        width: 100%;
+        height: 120px;
+        background-color: #CED5DA;
+        position: absolute;
+        top: 80px;
+    }
+
+    #small-menu{
+        text-align: center;
+    }
+
+
+    #small-menu #con{
+       display: inline-block;
+       padding-top: 40px;
+       padding-right: 30px;
+       padding-left: 50px;
+    }
+
+    #small-menu a{
+      text-decoration: none;
+      color: black;  
+    }
+
+    /* End of section 2 */
+    #sec-three{
+        width: 70%;
+        height: 950px;
+        position: absolute;
+        top: 200px;
+        margin-left: 220px;
+        margin-top: 20px;
+    }
+
+    #intro{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+     #head{
+         margin-top: 10px;
+       margin-left: 100px;
+        font-size: 17px;
+        font-family: cursive;
+    }
+
+
+
+    #progress{
+        width: 78%;
+        height: 5px;
+        margin-top: 4px;
+        border: solid #CED5DA 1px;
+        background-color: #CED5DA;
+        margin-left: 99px;
+        border-radius: 15px;
+    }
+
+   
+   
+    /* js video editing begins */
+    #video-intro iframe{
+        width: 78%;
+        height: 350px;
+        border: solid #1D3557 1px;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    
+    #download a{
+        text-decoration: none;
+        color: #ED3238;
+    }
+
+    #download #complete{
+        float: left;
+        margin-left: 100px;
+        width: 28%;
+        height: 5px;
+        border: solid #CED5DA 1px;
+        background-color: #CED5DA;
+        border-left: 20px solid #ED3238;
+        border-radius: 15px;
+    }
+
+    #download #complete p{
+        margin-left: 10px;
+        font-size: 13px;
+    }
+
+    #download #video{
+        float: right;
+        margin-right: 110px;
+    }
+
+
+
+    #js{
+        margin-top: 35px;
+        
+    }
+
+    #js h2{
+        margin-left: 100px;
+        color: #1D3557;
+        font-size: 30px;
+        font-family: skillstation;
+    }
+
+    #js p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 110px;
+        margin-top: 5PX;
+        color: darkcyan;
+    }
+
+#comment{
+    margin-top: 60px;
+    font-family: skillstation;
+    margin-left: 100px;
+    
+       
+}
+
+#comment-border{
+    width: 9%;
+    height: 2px;
+    border: solid #1D3557 1px;
+    background-color: #1D3557;
+    border-radius: 15px;
+}
+
+#comment-photo img{
+    margin-top: 10px;
+    float: left;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+#comment-photo #comm{
+    margin-top: 40px;
+    margin-left: 10px;
+    float: left;
+    display: block;
+   
+}
+
+#comm textarea{
+    margin-top: 5px;
+    width: 280%;
+    height: 50px;
+}
+
+
+
+/* comment2 begins here */
+ #comment2{
+    margin-top: 120px;
+    font-family: skillstation;
+    margin-left: 100px;     
+}
+
+#comment2 img{
+    margin-top: 10px;
+    float: left;
+    border-radius: 50%;
+   
+}
+
+#comment2 #text #jane{
+    padding-top: 40px;
+    margin-left: 40px;
+    padding-left: 40px;
+}
+
+#comment2 #text #who{
+    font-size: 12px;
+    margin-left: 40px;
+    padding-left: 40px;
+    margin-top: 5px;
+}
+
+/* Back to course editing */
+#end{
+    margin-top: 50px;
+    margin-left: 430px;
+    font-family: skillstation;
+    font-size: 20px;
+    color: #1D3557;
+    font-weight: bolder;
+}
+
+#navigate{
+    margin-top: 50px;
+    width: 100%;
+    height: 60px;
+    font-family: skillstation;
+}
+
+#navigate a{
+    text-decoration: none;
+    color: black;
+}
+
+#back{
+    width: 20%;
+    height: 60px;
+    display: inline-block;
+    float: left;
+    margin-left: 100px;
+}
+
+
+#back p{
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+
+#divider{
+    float: left;
+    height: 40px;
+    width: 0.5%;
+    border: solid #CED5DA 0.1px;
+    margin-left: 200px;
+    background-color: #CED5DA;
+}
+
+#proceed{
+    display: inline-block;
+    float: right;
+    margin-right: 120px;
+}
+
+#proceed p{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+/* download */
+#download-part{
+    margin-top: 10px;
+    font-family: skillstation;
+}
+
+#downloads{
+    display: inline-block;
+    float: left;
+    margin-left: 100px;
+}
+
+#share {
+   display: inline-block; 
+   float: right;
+   margin-right: 120px;
+}
+
+
+/*  share video */
+#share-part{
+    margin-top: 35px;
+    font-family: skillstation;
+
+}
+
+#share-part a{
+    text-decoration: none;
+    color: black;
+}
+
+#transcript{
+    display: inline-block;
+    float: left;
+    margin-left: 100px;
+
+}
+
+#social{
+   display: inline-block; 
+   float: right;
+   margin-right: 120px;
+}
+
+#social img{
+    padding-left: 15px;
+
+}
+
+#chat-box{
+    margin-top: -460px;
+    margin-left: 730px;
+    border: solid #1D3557 1px;
+    height: 30px;
+    width: 10%;
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 8px;
+    background-color: #1D3557;
+    
+}
+
+#chat-box a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#chat-box:hover{   
+    background-color: burlywood;
+}
+
+#chat-box a:hover{
+     color: #1D3557;
+}
+
+
+
+
+/* sec-four begins */
+#footer{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 1300px;
+    margin-bottom: 0px;
+    color: whitesmoke;
+    background-color: #1D3557;
+}
+
+ #foot1{
+    margin-left: 140px;
+    margin-top: 40px;
+    float: left;
+
+}
+#folo{
+    margin-top: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#so{
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+#sk{
+    margin-top: 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cont{
+    margin-left: 550px;
+    display: flex;
+}
+
+#cont1 {
+    margin-top: 50px;
+}
+
+
+#cont1 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+}
+
+#cont2 {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+
+#cont2 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+}
+
+#cont3 {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+
+#cont3 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+    
+} 
+
+@media(max-width:700px){
+    body{
+        width: 100%;
+    }
+
+    #nav{
+        width: 100%;
+    }
+
+    #menubar{
+        margin-left: 10px;
+    }
+
+    #logo{
+        margin-left: 20px;
+
+    }
+
+    #search input{
+        position: absolute;
+        left: 50px;
+        width: 120px;
+    }
+
+    #search button{
+        position: absolute;
+        left: 55px; 
+    }
+
+    #notification{
+        left: 480px;
+        position: absolute;
+    }
+
+    #name{
+        font-size: 15px;
+        right: 103px;
+        padding-top: 5px;
+    }
+
+    #myphoto img{
+        width: 8%;
+    }
+
+    .top{
+        width: 100%;
+    }
+
+   #head{
+       width: 100%;
+       margin-right: 220px;
+       font-size: 20px;
+   }
+
+
+  #sec-three{
+      width: 100%;
+      height: 600px;
+      margin: auto;
+  }
+
+
+  #h4{
+      margin-left: 130px;
+  }
+
+  #comm textarea{
+      width: 180%;
+  }
+
+  #comment2 #text #who{
+      width: 80%;
+  }
+
+  #chat-box{
+      position: absolute;
+      right: 100px;
+  }
+
+  #back a{
+      display: inline-block;
+  }
+
+  #divider{
+      display: none;
+  }
+
+
+#back p{
+    margin-left: 25px; 
+    margin-top: -50px;
+}
+
+
+ #foot1{
+    margin-left: 10px;
+    margin-top: 40px;
+    float: left;
+
+}
+
+
+
+
+#cont{
+    margin-left: 300px;
+    display: flex;
+}
+
+#cont1 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+
+
+#cont2 {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+
+
+#cont3 {
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+
+
+
+
+}
+
+
